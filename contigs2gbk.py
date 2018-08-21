@@ -37,3 +37,7 @@ def main():
 					for record in SeqIO.parse(genome, "genbank"):
 						if record.id in ids:
 							SeqIO.write([record], open(record.id + ".gbk", "w"), "genbank")
+							
+
+if __name__ == '__main__':
+	main()
