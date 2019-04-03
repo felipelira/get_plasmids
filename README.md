@@ -11,9 +11,13 @@ To solve this problem and detect non-described plasmids in draft genomes (or pla
 It will detect contigs which not described as plasmids (or 
 
 get_plasmids pipeline:
+
     1 - Download your dataset with your desired plasmids genomes
+    
     2 - Fragment the plasmids genomes
+    
     3 - Perform get_plasmids search
+    
     4 - Extract plasdmids
 
 
